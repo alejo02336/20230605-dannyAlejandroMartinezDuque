@@ -1,0 +1,38 @@
+git init
+git status
+git remote add origin https://github.com/alejo02336/20230605-dannyAlejandroMartinezDuque.git
+git branch -M main
+touch comandos.txt
+touch main.js
+touch index.html
+git status
+git add .
+git commit -m "commit 01 de DannyAlejandroMartinezDuque"
+git push -u origin main
+git checkout -b feature
+mkdir Hardware
+mkdir Software
+mkdir SeguridadInformatica
+ls
+cd Hardware
+touch resumen.txt
+ls
+cd ..
+cd Software/
+touch resumen.txt
+cd ..
+cd SeguridadInformatica/
+touch resumen.txt
+cd ..
+git status
+git add .
+git commit -m "commit 02 de DannyAlejandroMartinezDuque"
+git push origin feature
+git branch
+ls
+git checkout main
+ls
+mv main.js resumenHardware.txt
+mv index.html resumenSoftware.txt
+ls
+history
